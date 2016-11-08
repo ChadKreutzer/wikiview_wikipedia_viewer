@@ -1,0 +1,101 @@
+body {
+  background-color: silver;
+  background-image: url(https://www.dropbox.com/s/3ale3nemizm7k7v/2000px-Wikipedia-logo-v2-no-text.svg.png?dl=1);
+  background-repeat: no-repeat;
+  background-origin: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.affix {
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+#spacer {
+  padding-bottom: 35%;
+}
+
+#searchElement {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 5px #444444;
+  z-index: 1;
+  
+}
+
+#searchBox {
+  margin-top: 10px;
+  width: 65%;
+  border-radius: 15px;
+}
+
+
+@media screen and (max-width: 825px) {
+  #searchBox {
+    width: 100%;
+    border-right: 10px;
+  }
+}
+
+#searchButton,
+#randomButton {
+  margin-top: 7px;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 100%;
+  background-color: silver;
+  color: black;
+  border: none;
+}
+
+#searchButton:hover,
+#randomButton:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+#searchName {
+  font-family: serif;
+  margin-top: 5px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 2em;
+  color: silver;
+}
+
+@media screen and (max-width: 337px){
+  #searchName{
+    font-size: 1.8em;   
+  }
+}
+#resultDiv {
+  padding-top: 5px;
+}
+
+.resultStyle {
+  background-color: silver;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.resultStyle:hover {
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px #444444;
+}
+
+a:hover {
+  text-decoration: none;
+}
